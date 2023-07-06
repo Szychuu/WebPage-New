@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.login-container {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(255,255,255,0.8);
+	border-radius: 10px;
+	padding: 40px 40px 50px;
+	height: 76vh;
+	width: 50vw;
+    text-align: center;
+}
+
+.login-container h2 {
+	font-size: 45px;
+	font-weight: 700;
+    margin: 20px auto 7px;
+}
+
+.login-container p {
+	font-size: 21px;
+	font-weight: 300;
+	color: rgba(0,0,0,0.65);
+    margin-bottom: 30px;
+}
+
+.login-card {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.login-container .fa-solid {
+    color: rgba(0,0,0,0.5);
+    transform: translateX(50px);
+}
+
+.email-box input,
+.password-box input,
+.password-box-again input {
+	background: rgba(255,255,255,0.8);
+	color: black;
+	border: 1px;
+	border-radius: 100px;
+	padding: 6px 10px;
+	padding-left: calc(1rem * 3.5);
+	margin: 10px 5px;
+	outline: none;
+    width: 270px;
+    height: 5vh;
+}
+
+.password-box-again input {
+    margin-bottom: 20px;
+}
+
+.remember-me-box {
+    margin: 5px 0 0;
+	user-select: none;
+}
+
+.submit-button button {
+	background: black;
+	color: white;
+	border: 1px;
+	border-radius: 100px;
+	padding: 20px 145px;
+	margin: 30px 0;
+	font-size: 17px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: padding 0.4s;
+}
+
+.submit-button button:hover {
+	padding: 23px 150px;
+}
+
+.login-container a {
+	text-decoration: none;
+	color: #4169E1;
+}
+
+.login-container a:hover {
+	text-decoration: underline;
+}
+
+.login-card-social {
+    font-weight: 600;
+}
+
+.login-card-social p{
+    color: rgba(0,0,0,0.8);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 0 15px;
+}
+
+.login-card-social .fa-brands {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(0,0,0,0.8);
+    padding: 19px 10px;
+    border-radius: 30%;
+    transition: padding 0.5s;
+}
+
+.login-card-social .fa-brands:hover {
+    padding: 22px 12px;
+}

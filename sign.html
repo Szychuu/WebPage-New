@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompleksowa Obsługa Nieruchomości - Sign In</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="sign.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo" src="images/KON-backgroundless.png" alt="logo_01"/></a>
+            <ul>
+                <li class="login"><a href="login.html">Log In</a></li>
+                <li class="sign"><a href="#">Sign In</a></li>
+                <li class="form"><a href="form.html">Form</a></li>
+                <li class="form"><a href="#contact">Contact</a></li>
+                <li class="search"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="hamburger">
+                    <a href="#">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="images">
+            <img src="images/cleaned_background.png" alt="photo" id="background">
+            <img src="images/left_image.png" alt="photo" id="left_image">
+            <img src="images/middle_image_2.png" alt="photo" id="middle_image">
+            <img src="images/right_image_2.png" alt="photo" id="right_image">
+        </div>
+
+        <div class="login-container">
+            <h2>Sign In</h2>
+			<p>Please create an account to use platfrom</p>
+
+			<div class="email-box">
+                <i class="fa-solid fa-envelope"></i>
+				<input type="mail" placeholder="Enter Email" required>
+			</div>
+					
+			<div class="password-box">
+				<i class="fa-solid fa-lock"></i>
+				<input type="password" placeholder="Enter Password" required>
+			</div>
+
+            <div class="password-box-again">
+                <i class="fa-solid fa-lock"></i>
+				<input type="password" placeholder="Re-Enter Password" required>
+            </div>
+					
+			<div class="remember-me-box">
+				<input type="checkbox" id="remember-me">
+				<label for="remember-me">Remember me</label>
+			</div>
+					
+			<div class="submit-button">
+				<button type="submit">Sign In</button>
+			</div>
+					
+			<div class="sign-in">
+				Already have an account? <a href="login.html">Log In right now!</a>
+			</div>
+
+            <div class="login-card-social">
+                <p>Other Sign-In Platforms</p>
+                <a href="#"><i class="fa-brands fa-google fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="contact" id="contact">
+            <h2>Ready For Some Action?</h2>
+            <i class="fa-solid fa-phone"></i>
+            <li class="phone">503929249</li>
+            <i class="fa-solid fa-envelope"></i>
+            <li class="mail">borys.szycher@gmail.com</li>
+            <i class="fa-solid fa-location-dot"></i>
+            <li class="adress">KON Inc. One KON Park Way; Cupertino, CA 95014, U.S.A</li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

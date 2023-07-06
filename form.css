@@ -1,0 +1,131 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+    * {
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    }
+
+    .login-container {
+        position: absolute;
+        top: 50vh;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background: rgba(255,255,255,0.8);
+        border-radius: 10px;
+        padding: 40px 40px 50px;
+        height: 71vh;
+        width: 60vw;
+        text-align: center;
+    }
+
+    .login-container h2 {
+        font-size: 45px;
+        font-weight: 700;
+        margin: 20px auto 7px;
+    }
+
+    .login-container p {
+        font-size: 21px;
+        font-weight: 300;
+        color: rgba(0,0,0,0.65);
+        margin-bottom: 30px;
+    }
+
+    .login-card {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .login-container .fa-solid {
+        color: rgba(0,0,0,0.5);
+        transform: translateX(-135px) translateY(26px);
+        position: absolute;
+        z-index: 2;
+    }
+
+    .email-box input,
+    .password-box input {
+        background: rgba(255,255,255,0.8);
+        color: black;
+        z-index: 1;
+        border: 1px;
+        border-radius: 100px;
+        padding: 6px 10px;
+        padding-left: calc(1rem * 3.5);
+        margin: 10px 5px;
+        outline: none;
+        width: 270px;
+        height: 50px;
+        position: relative;
+        left: -170px;
+    }
+
+    .login-container a {
+        text-decoration: none;
+        color: #4169E1;
+    }
+
+    .login-container a:hover {
+        text-decoration: underline;
+    }
+
+    .message-box textarea {
+        background: rgba(255,255,255,0.8);
+        color: black;
+        border: 1px;
+        border-radius: 20px;
+        padding: 20px 25px;
+        padding-left: calc(1rem * 3.5);
+        margin: 10px 5px;
+        outline: none;
+        width: 370px;
+        height: 260px;
+        position: absolute;
+        transform: translateY(-280px);
+        z-index: 1;
+        resize: none;
+    }
+
+    .message-box .fa-solid {
+        color: rgba(0,0,0,0.5);
+        transform: translateX(35px) translateY(-247px);
+        position: absolute;
+        z-index: 2;
+    }
+
+    .date-box input{
+        color: rgba(0,0,0,0.7);
+        border: 1px;
+        border-radius: 20px;
+        margin: 10px 5px;
+        outline: none;
+        width: 170px;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .submit-button button {
+        background: black;
+        color: white;
+        border: 1px;
+        border-radius: 100px;
+        padding: 20px 145px;
+        margin: 20px 0 50px;
+        font-size: 17px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: padding 0.4s;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .submit-button button:hover {
+        padding: 23px 150px;
+    }
